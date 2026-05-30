@@ -6,38 +6,87 @@
 <title>Ajay Kalihari Digital Services</title>
 
 <style>
-body{
+*{
 margin:0;
+padding:0;
+box-sizing:border-box;
 font-family:Arial,sans-serif;
-background:#f4f6f9;
+}
+
+body{
+background:#f5f7fb;
 }
 
 header{
-background:#0d47a1;
+background:linear-gradient(135deg,#0d47a1,#1565c0);
 color:white;
+padding:60px 20px;
 text-align:center;
-padding:40px 20px;
+}
+
+header h1{
+font-size:42px;
+}
+
+header p{
+margin-top:10px;
+font-size:18px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#25D366;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+
+.section{
+padding:50px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+.section h2{
+text-align:center;
+margin-bottom:30px;
+color:#0d47a1;
 }
 
 .services{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:15px;
-padding:20px;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
 }
 
 .card{
 background:white;
 padding:20px;
-border-radius:10px;
-box-shadow:0 2px 8px rgba(0,0,0,.1);
+border-radius:12px;
+box-shadow:0 3px 10px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
 }
 
 .contact{
 background:white;
-margin:20px;
+padding:25px;
+border-radius:12px;
+box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+
+footer{
+background:#0d47a1;
+color:white;
+text-align:center;
 padding:20px;
-border-radius:10px;
+margin-top:40px;
 }
 
 .whatsapp{
@@ -46,22 +95,30 @@ bottom:20px;
 right:20px;
 background:#25D366;
 color:white;
-padding:15px;
+padding:15px 20px;
 border-radius:50px;
 text-decoration:none;
 font-weight:bold;
 }
 </style>
-
 </head>
+
 <body>
 
 <header>
 <h1>Ajay Kalihari Digital Services</h1>
 <p>घर बैठे A to Z ऑनलाइन सेवाएँ</p>
+
+<a class="btn"
+href="https://wa.me/919303440511">
+WhatsApp Support
+</a>
 </header>
 
-<section class="services">
+<section class="section">
+<h2>हमारी सेवाएँ</h2>
+
+<div class="services">
 
 <div class="card">
 <h3>CGPSC Guidance</h3>
@@ -74,13 +131,23 @@ font-weight:bold;
 </div>
 
 <div class="card">
+<h3>CTET / TET</h3>
+<p>शिक्षक भर्ती मार्गदर्शन</p>
+</div>
+
+<div class="card">
 <h3>Online Forms</h3>
 <p>सभी प्रकार के आवेदन</p>
 </div>
 
 <div class="card">
-<h3>CTET / TET</h3>
-<p>शिक्षक भर्ती मार्गदर्शन</p>
+<h3>Scholarship Forms</h3>
+<p>छात्रवृत्ति सहायता</p>
+</div>
+
+<div class="card">
+<h3>Job Updates</h3>
+<p>सरकारी एवं निजी नौकरी जानकारी</p>
 </div>
 
 <div class="card">
@@ -89,16 +156,57 @@ font-weight:bold;
 </div>
 
 <div class="card">
-<h3>Digital Services</h3>
-<p>दस्तावेज़ एवं ऑनलाइन सहायता</p>
+<h3>Resume / CV</h3>
+<p>रिज्यूमे एवं प्रोफाइल निर्माण</p>
 </div>
 
+<div class="card">
+<h3>Document Services</h3>
+<p>PDF, आवेदन एवं दस्तावेज़ सहायता</p>
+</div>
+
+<div class="card">
+<h3>Digital Services</h3>
+<p>ऑनलाइन सहायता सेवाएँ</p>
+</div>
+
+<div class="card">
+<h3>Admission Help</h3>
+<p>कॉलेज एवं कोर्स एडमिशन सहायता</p>
+</div>
+
+<div class="card">
+<h3>General Guidance</h3>
+<p>सामान्य मार्गदर्शन एवं सहायता</p>
+</div>
+
+</div>
 </section>
 
+<section class="section">
+<h2>हमारे बारे में</h2>
+
 <div class="contact">
-<h2>Contact</h2>
-<p>📞 9303440511</p>
+<p>
+Ajay Kalihari Digital Services में आपका स्वागत है।
+हम विभिन्न ऑनलाइन सेवाओं, परीक्षा मार्गदर्शन,
+फॉर्म भरने एवं डिजिटल सहायता सेवाएँ प्रदान करते हैं।
+</p>
 </div>
+</section>
+
+<section class="section">
+<h2>संपर्क करें</h2>
+
+<div class="contact">
+<p><b>मोबाइल:</b> 9303440511</p>
+<p><b>WhatsApp:</b> 9303440511</p>
+</div>
+</section>
+
+<footer>
+© 2026 Ajay Kalihari Digital Services
+</footer>
 
 <a class="whatsapp"
 href="https://wa.me/919303440511">
